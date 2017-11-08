@@ -74,7 +74,7 @@ module HubStep
     # finish         - Boolean indicating whether to "finish" (i.e., record the
     #                  span's end time and submit it to the collector).
     #                  Defaults to true.
-    # verbose        - Boolean indicating this is a ancilary span, only
+    # verbose        - Boolean indicating this is a ancillary span, only
     #                  emitted when the tracer has verbose enabled, default
     #                  false
     #
