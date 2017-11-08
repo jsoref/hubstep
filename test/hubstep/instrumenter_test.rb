@@ -5,7 +5,7 @@ require "hubstep/instrumenter"
 require "active_support/notifications"
 
 module HubStep
-  class InstrumentorTest < HubStep::TestCases
+  class InstrumenterTest < HubStep::TestCases
     def setup
       @tracer = Tracer.new
       @tracer.enabled = true
